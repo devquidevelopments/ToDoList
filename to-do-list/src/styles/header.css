@@ -1,0 +1,41 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3em 0;
+}
+
+.submit-btn {
+
+}
+
+.sort-filter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sort-order {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-tasks {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  width: 80%;
+  max-width: 600px;
+  font-size: 20px;
+}

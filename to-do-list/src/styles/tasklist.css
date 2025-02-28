@@ -1,0 +1,43 @@
+.tasklist-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tasklist-item-dragger {
+  margin: 1em 0;
+}
+
+.tasklist-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tasklist-item {
+  min-width: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tasklist-item-info {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.tasklist-item-checkbox {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.complete {
+  text-decoration: line-through;
+}
+
+.tick {
+  height: 28px;
+  width: 28px;
+}
